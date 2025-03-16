@@ -91,3 +91,5 @@ build/
 ~$*
 *.pid
 ```kubernetes/cert-manager/letsencrypt-issuer.yaml
+kubernetes/config/mysql-configmap.yaml
+kubernetes/config/wordpress-configmap.yaml
