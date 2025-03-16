@@ -1,1 +1,93 @@
+```gitignore
+# ------------------------------------------------------------------------------
+# GENERAL SYSTEM FILES
+# ------------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+
+# IDE/EDITOR DIRECTORIES AND FILES
+# ------------------------------------------------------------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# LOG FILES
+# ------------------------------------------------------------------------------
+*.log
+logs/
+log/
+
+# EXAMPLE ENVIRONMENT VARIABLE FILES
+# ------------------------------------------------------------------------------
 .env
+*.env
+.env.*
+
+# KUBERNETES AND DOCKER SECRET/CERTIFICATE FILES
+# ------------------------------------------------------------------------------
+*.crt
+*.key
+*.csr
+*secret.yaml
+*secret.yml
+*.pem
+
+# DOCKER AND KUBERNETES SAMPLE FILES
+# ------------------------------------------------------------------------------
+# (You can add them if you don’t want to track actual configurations)
+docker-compose.override.yml
+.dockerignore
+kubeconfig
+*.kube/
+
+# WORDPRESS-RELATED FILES
+# ------------------------------------------------------------------------------
+# If you are not including the WordPress core in version control:
+wordpress/
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# PHP-COMPOSER (if you use it)
+# ------------------------------------------------------------------------------
+vendor/
+composer.lock
+
+# PYTHON (if you use it)
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+
+# NODE.JS (if you use it)
+# ------------------------------------------------------------------------------
+node_modules/
+npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+
+# BUILD/CI FILES
+# ------------------------------------------------------------------------------
+coverage/
+dist/
+build/
+.tmp/
+.temp/
+.cache/
+
+# TEMPORARY OR EXTERNAL TOOLS
+# ------------------------------------------------------------------------------
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.rej
+~$*
+*.pid
+```
