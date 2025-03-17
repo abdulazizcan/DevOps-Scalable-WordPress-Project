@@ -35,6 +35,8 @@ This project aims to run WordPress + MySQL + phpMyAdmin with Docker Compose, Swa
 ┃ ┗ 📜 requirements.txt  
 ┗ 📜 .env
 ```
+[go to CONTRIBUTING.md file](https://github.com/abdulazizcan/DevOps-Scalable-WordPress-Project/blob/main/CONTRIBUTING.md)
+
 ## Features
 
 - Docker Compose / Swarm / Kubernetes
