@@ -7,9 +7,8 @@
 This project aims to run WordPress + MySQL + phpMyAdmin with Docker Compose, Swarm, and Kubernetes in a scalable, SSL-enabled, and monitoring-supported environment.
 
 ## Structure:
-
+```bash
 📦 # DevOps: Multi-Environment Scalable WordPress
-
 ┣ 📂 docker-compose  
 ┃ ┗ 📜 docker-compose.yaml  
 ┣ 📂 docker-swarm  
@@ -35,7 +34,7 @@ This project aims to run WordPress + MySQL + phpMyAdmin with Docker Compose, Swa
 ┃ ┣ 📜 container_monitor.py  
 ┃ ┗ 📜 requirements.txt  
 ┗ 📜 .env
-
+```
 ## Features
 
 - Docker Compose / Swarm / Kubernetes
