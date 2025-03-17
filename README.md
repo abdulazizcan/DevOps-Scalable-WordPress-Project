@@ -6,6 +6,35 @@
 
 This project aims to run WordPress + MySQL + phpMyAdmin with Docker Compose, Swarm, and Kubernetes in a scalable, SSL-enabled, and monitoring-supported environment.
 
+## Structure:
+
+📦 # DevOps: Multi-Environment Scalable WordPress
+┣ 📂 docker-compose  
+┃ ┗ 📜 docker-compose.yaml  
+┣ 📂 docker-swarm  
+┃ ┗ 📜 swarm-stack.yaml  
+┣ 📂 kubernetes  
+┃ ┣ 📂 config  
+┃ ┃ ┗ 📜 monitoring  
+┃ ┣ 📂 deployments  
+┃ ┃ ┣ 📜 monitoring.yaml  
+┃ ┃ ┣ 📜 mysql-statefulset.yaml  
+┃ ┃ ┣ 📜 phpmyadmin-deployment.yaml  
+┃ ┃ ┗ 📜 wordpress-deployment.yaml  
+┃ ┣ 📂 ingress  
+┃ ┃ ┗ 📜 ingress.yaml  
+┃ ┣ 📂 rbac  
+┃ ┃ ┗ 📜 rbac.yaml  
+┃ ┣ 📂 services  
+┃ ┃ ┣ 📜 mysql-service.yaml  
+┃ ┃ ┣ 📜 phpmyadmin-service.yaml  
+┃ ┃ ┗ 📜 wordpress-service.yaml  
+┃ ┗ 📂 monitoring  
+┃ ┣ 📜 Dockerfile  
+┃ ┣ 📜 container_monitor.py  
+┃ ┗ 📜 requirements.txt  
+┗ 📜 .env
+
 ## Features
 
 - Docker Compose / Swarm / Kubernetes
