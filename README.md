@@ -9,6 +9,7 @@ This project aims to run WordPress + MySQL + phpMyAdmin with Docker Compose, Swa
 ## Structure:
 
 📦 # DevOps: Multi-Environment Scalable WordPress
+
 ┣ 📂 docker-compose  
 ┃ ┗ 📜 docker-compose.yaml  
 ┣ 📂 docker-swarm  
