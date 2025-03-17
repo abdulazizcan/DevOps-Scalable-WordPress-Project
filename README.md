@@ -34,7 +34,7 @@ kubectl apply -f kubernetes/ingress/
 
 ### Monitoring
 
-`monitoring/container_monitor.py` is a simple example script.
+`config/monitoring/container_monitor.py` is a simple example script.
 
 ## Contribution
 
